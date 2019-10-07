@@ -16,8 +16,6 @@ namespace SPP_3
         public TreeNode<TNode> Right { get; set; }
         public TNode Value { get; private set; }
 
-        /// Метод возвращает 1, если значение текущего узла больше,
-        /// чем переданного методу, -1, если меньше и 0
         public int CompareTo(TNode other)
         {
             return Value.CompareTo(other);
